@@ -46,4 +46,12 @@ for (var i in studenti) {
 
 // Creare il prompt per dare l'opportunità all'utente di inserire un nuovo studente
 
- var newStudente = prompt('Vuoi aggiungere un nuovo studente');
+var newStudente = {};
+
+newStudente.nome = prompt("Inserire il nome dello studente");
+
+newStudente.cognome = prompt("Inserire il cognomenome dello studente");
+
+newStudente.eta = parseInt(prompt("Inserire l'età dello studente"));
+
+console.log(newStudente);
